@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="4b5f3c89-d0df-47dc-adbb-898ac8e1d605" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>01. Fast Tests</name>
+  <description />
+  <settings ref="JavaScript_Template">
+    <parameters>
+      <param name="Broswer" value="PhantomJS" />
+    </parameters>
+    <build-runners order="" />
+    <vcs-settings />
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
